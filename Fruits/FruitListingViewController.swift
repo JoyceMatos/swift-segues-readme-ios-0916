@@ -36,7 +36,7 @@ extension FruitListingViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FruitCell", for: indexPath)
         let fruit = fruits[(indexPath as NSIndexPath).row]
         cell.textLabel?.text = fruit
-        return cell
+        return cell 
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
